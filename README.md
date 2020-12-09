@@ -1,7 +1,5 @@
 ### The Hypthesis
-<div class="alert alert-block alert-info" align="center">
 How does the Emergency Medical Service position an ambulance to a given geographic region?
-</div>
 
 The province is divided into different geographic response areas called "Response Areas." These Response Areas are from a few city blocks to hundreds of square KM. The project was simply a proof of concept that could Deep Q Learning predict the next call's location. Even though geographic boundaries define the response areas, a linear array can represent response areas. A linear numpy array probability distortion where the highest value in the array is the next response location.
 
